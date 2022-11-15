@@ -5,8 +5,8 @@ import User from "../src/types/User"
 describe("should be test the user service methods", ()=>{
 
     const user: User = {
-        email:"victor.queiroz@academico.ifpb.edu.br",
-        name: "João Victor Lacerda de Queiroz",
+        email:"tamires.xavier@academico.ifpb.edu.br",
+        name: "Tamires Xavier de Sousa",
         password: "123456"
     }
     const userService = new UserService();
